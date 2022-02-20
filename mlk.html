@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Life:200,300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="papa.css">
+</head>
+<body>
+
+   <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <h1 class="">Martin</h1>
+                    <h1 class="">Luther</h1>
+                    <h1 class="">King  </h1>
+                    <h1 class="">Junior </h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="mlk2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="mlk.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <p class="lead">Martin Luther King Jr was born in the United States of America to African American parents. At birth he was named Michael King, but his father later changed his name to Martin Luther King Jr.  When Martin Luther King was growing up, life was hard for African Americans. The Southern United States operated under the ‘Jim Crow laws’ that kept black and white people separated in what was called ‘segregation’. Black people had different schools, toilets and even sections of the bus to white people. They were also denied the right to vote in elections.  Martin Luther King had his first experience of segregation at just six years old, when he was told he wasn’t allowed to play with his white friend anymore – his friend’s father wouldn’t allow it!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <p class="lead">His first major role in the Civil Rights Movement came in 1955, after an African American lady – Rosa Parks – was arrested for refusing to give up her seat to a white man on a bus. This sparked outrage in the African American community and Martin helped to organise a boycott of the city’s buses. After 381 days of protest, a court finally ruled that such segregation laws should no longer be recognised.  Martin was a great believer in peaceful protest, inspired by the Indian activist Mahatma Gandhi. His protests used no-violent tactics, even when the protesters themselves were met with violence from the police.  In 1963, Martin gave his famous “I Have a Dream” speech, at a famous rally named ‘March on Washington.’ Over 250,000 people gathered in the country’s capital to hear Martin and other activists speak about the importance of civil rights. It has become one of the most famous speeches in history and focuses on Martin’s dream of a society where black people and white people live together in harmony.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="mlk5.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="mlk3.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <p class="lead"> In October 1964, Martin won the Nobel Peace Prize! He was told over the phone whilst he was in bed suffering from exhaustion – it had been a long, hard fight for civil rights!  Tragically, Martin Luther King Jr was assassinated in 1968 in Tennessee, where he had given a speech the day before. He was standing on the balcony his hotel when he was shot. James Earl Ray was convicted of his murder and spent the rest of his life in prison, despite claiming to be innocent. James died in 1998.  Martin Luther King Jr is remembered for his tireless work during the Civil Rights Movement and his dream that one day everyone would be treated as equals. A statue built in his memory now stands in Washington D.C. and each year, the third Monday in January is celebrated as Martin Luther King Jr. Day, an American federal holiday. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+     </script>
+</body>
+
+</html>

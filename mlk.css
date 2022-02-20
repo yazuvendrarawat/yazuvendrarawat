@@ -1,0 +1,63 @@
+body {
+    background: #9d6b53
+}
+
+.blurb h2 {
+   color: #ede0d4;
+   font-weight: 7rem;
+   font-size: 7rem;
+}
+
+.blurb p {
+    color: #ede0d4;
+    font-weight: 99999px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.content {
+    margin-top:     0px;
+    margin-bottom: 0px;
+}
+
+#mainNavbar {
+    font-size: 2rem;
+    font-weight: 7rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ede0d4;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ede0d4;
+    font-size:  2rem;
+}
+
+#headingGroup span {
+    color: #ede0d4;
+}
+
+#headingGroup h1 {
+    font-weight: 900;
+    font-size: 9rem;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 5rem;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
